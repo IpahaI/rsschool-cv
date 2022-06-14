@@ -1,3 +1,4 @@
+/*Resetting Styles*/
 *{
 	padding: 0;
 	margin: 0;
@@ -33,3 +34,232 @@ a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
+
+body {
+	font-family: Lato;
+	font-size: 18px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 1180px;
+	min-height: 100%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*         Header         */
+
+.profile {
+	background-color: #F9F9F9;
+}
+
+.content {
+	margin: 0 70px;
+}
+
+.container {
+	display: flex;
+}
+
+.profile__container {
+	display: flex;
+	align-items: center;
+	height: 240px;
+}
+
+/*Left column*/
+
+.left__column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 75%;
+	padding: 0 70px 0 0;
+}
+
+.photo__name {
+	display: flex;
+	align-items: center;
+}
+
+.profile__photo {
+	display: flex;
+}
+
+.my__photo {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+}
+
+.profile__name {
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 25px;
+	text-shadow: 0 3px 2px grey;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 33px;
+}
+
+/*Right column*/
+
+.right__column {
+	display: flex;
+	flex-direction: column;
+}
+
+.profile__contacts  {
+	line-height: 1.5;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #5E5E5E;
+	font-weight: bold;
+}
+
+.title__contacts li {
+	padding-left: 30px;
+	background: url(./assets/img/shaka.png) no-repeat 0;
+}
+
+.contacts {
+	margin: 5px 0 0 0;
+	line-height: 1.5;
+	color: #2B2B2B;
+}
+
+/*         Content        */
+
+.information {
+	background: #FFFFFF
+}
+
+.information__container {
+	margin: 40px 0 0 0;
+}
+
+/*Left column*/
+
+.title__aboutme li {
+	padding-left: 30px;
+	background: url(./assets/img/user.png) no-repeat 0;
+}
+
+
+.information__aboutme {
+	margin: 20px 0 0 0;
+	line-height: 1.4;
+}
+
+.work__experience {
+	margin: 40px 0 0 0;
+}
+
+.title__work li {
+	padding-left: 30px;
+	background: url(./assets/img/suitcase.png) no-repeat 0;
+}
+
+.inormation__work {
+	margin: 25px 0 0 0;
+}
+
+.name__company {
+	font-size: 23px;
+	font-weight: bold;
+	color: #232323;
+}
+
+.duration {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+	color: #5E5E5E;
+}
+
+.post {
+	margin: 10px 0 0 0;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.work__description {
+	margin: 10px 0 0 0;
+	color: #5f5f5f;
+	line-height: 1.4;
+}
+
+.list__exp li {
+	list-style: circle;
+}
+
+.ex__work {
+	margin: 25px 0 0 0;
+	padding: 25px 0;
+	border-top:2px solid #F9F9F9;
+}
+
+/*Right column*/
+
+.gray__block {
+	padding: 20px 180px 20px 15px;
+	background-color: #F9F9F9;
+	border-radius: 10px;
+}
+
+.title__skills li {
+	padding-left: 30px;
+	background: url(./assets/img/skills.png) no-repeat 0;
+}
+
+.under__title {
+	margin: 20px 0 0 0;
+	line-height: 1.4;
+	color: #2B2B2B;
+}
+
+
+.title__education li {
+	background: url(./assets/img/education.png) no-repeat 0;
+	padding-left: 30px;
+}
+
+.skills {
+	margin: 30px 0 0 0;
+}
+
+.languages {
+	margin: 30px 0 0 0;
+}
+
+.title__languages li {
+	padding-left: 30px;
+	background: url(./assets/img/language.png) no-repeat 0;
+}
+
+/*Footer*/
+
+.background__footer{
+	background-color: #F9F9F9;
+}
+
+.cotainer__footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.course__img {
+	width: 100px;
+	height: 100px;
+	background: url(./assets/img/rs_school_js.svg) no-repeat center;
+}
+
