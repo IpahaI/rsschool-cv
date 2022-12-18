@@ -75,7 +75,9 @@ margin-right: 35px;
 }
 
 .preview__container {
+	height: 550px;
 	display: flex;
+	align-items: flex-end;
 }
 
 h1 {
@@ -92,10 +94,18 @@ h3 {
 }
 
 .preview__container__left {
-	margin-top: 250px;
+	margin-bottom: 150px;
+	margin-right: 250px;
 }
 
+.preview__container__right {
 
+}
+
+.my-photo {
+	width: 550px;
+	height: 552px;
+}
 
 
 /*    About    */
